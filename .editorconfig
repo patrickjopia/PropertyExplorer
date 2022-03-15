@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# BC2001: file 'C:\Users\pal02068\Visual Studio Projects\PropertyExplorer\propertyXDataSet.Designer.vb' could not be found
+dotnet_diagnostic.BC2001.severity = silent
