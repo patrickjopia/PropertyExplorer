@@ -25,10 +25,17 @@ Module mod_export
             '' ExportDataToPDFTable()
             exportPDF()
 
+<<<<<<< HEAD
             frmViewRecords.labelStatus.Text = frmViewRecords.labelStatus.Text + "PDF file : " + pdffile + " created Successfully!"
             MsgBox("PDF file : " + pdffile + " created Successfully!")
         Else
             MsgBox("Enter Filename to create PDF", "PropertyXplorer")
+=======
+            frmViewRecords.labelStatus.Text = frmViewRecords.labelStatus.Text + " PDF Created! "
+            MsgBox("PDF Created Successfully")
+        Else
+            MsgBox("Enter Filename to create PDF")
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
 
         End If
     End Sub

@@ -45,8 +45,11 @@ Partial Class frmViewRecords
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.labelStatus = New System.Windows.Forms.Label()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+<<<<<<< HEAD
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
+=======
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PropertyxtblBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PropertyxdbDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -190,6 +193,7 @@ Partial Class frmViewRecords
         Me.labelStatus.TabIndex = 5
         Me.labelStatus.Text = "Label1"
         '
+<<<<<<< HEAD
         'Timer1
         '
         Me.Timer1.Enabled = True
@@ -204,13 +208,18 @@ Partial Class frmViewRecords
         Me.Button1.Text = "Refresh"
         Me.Button1.UseVisualStyleBackColor = True
         '
+=======
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
         'frmViewRecords
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(800, 570)
+<<<<<<< HEAD
         Me.Controls.Add(Me.Button1)
+=======
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
         Me.Controls.Add(Me.labelStatus)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.btnExport)
@@ -251,6 +260,9 @@ Partial Class frmViewRecords
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents labelStatus As Label
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+<<<<<<< HEAD
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Button1 As Button
+=======
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
 End Class

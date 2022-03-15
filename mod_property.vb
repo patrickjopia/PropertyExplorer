@@ -75,9 +75,15 @@ Module mod_property
 
 
         If cmdAdd.ExecuteNonQuery() = 1 Then
+<<<<<<< HEAD
             MessageBox.Show("New Property Added", "PropertyXplorer")
         Else
             MessageBox.Show("Property Not Added", "PropertyXplorer")
+=======
+            MessageBox.Show("New Property Added")
+        Else
+            MessageBox.Show("Property Not Added")
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
         End If
 
     End Sub
@@ -86,6 +92,7 @@ Module mod_property
     Function PopulateDataGridViewRecords() As DataTable
 
 
+<<<<<<< HEAD
         ''Dim query As String = "Select * FROM propertyxtbl"
         ''query &= " WHERE LocCity LIKE @LocCity "
         '' query &= " OR @LocCity = ''"
@@ -98,12 +105,23 @@ Module mod_property
         query &= " OR @TypeProperty = ''"
         query &= " AND LocCity LIKE @LocCity "
         query &= " Or @TypeProperty = ''"
+=======
+        Dim query As String = "Select * FROM propertyxtbl"
+        query &= " WHERE LocCity LIKE @LocCity "
+        query &= " OR @LocCity = ''"
+        query &= " AND TypeProperty LIKE @TypeProperty"
+        query &= " OR @TypeProperty = ''"
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
 
         Dim constr As String = "server=localhost;user id=root;password=1p@s4w0rd2o22;persistsecurityinfo=True;database=propertyxdb"
         Using con As MySqlConnection = New MySqlConnection(constr)
             Using cmd As MySqlCommand = New MySqlCommand(query, con)
+<<<<<<< HEAD
                 cmd.Parameters.AddWithValue("@LocCity", frmViewRecords.txtSearch.Text + "%'")
                 ''cmd.Parameters.AddWithValue("@LocCity", frmViewRecords.txtSearch.Text)
+=======
+                cmd.Parameters.AddWithValue("@LocCity", frmViewRecords.txtSearch.Text.Trim())
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
                 cmd.Parameters.AddWithValue("@TypeProperty", frmViewRecords.cmbSearch.Text.ToString)
                 Using sda As MySqlDataAdapter = New MySqlDataAdapter(cmd)
                     Dim dt As DataTable = New DataTable()

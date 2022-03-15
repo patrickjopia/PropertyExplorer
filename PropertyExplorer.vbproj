@@ -120,6 +120,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="frmAddRecord_bkp1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddRecord_bkp1.Designer.vb">
+      <DependentUpon>frmAddRecord_bkp1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
     <Compile Include="frmAddRecords.Designer.vb">
       <DependentUpon>frmAddRecords.vb</DependentUpon>
     </Compile>
@@ -144,6 +154,15 @@
     <Compile Include="frmViewRecords.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frmViewRecords_bkp.Designer.vb">
+      <DependentUpon>frmViewRecords_bkp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewRecords_bkp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -176,6 +195,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="frmAddRecord_bkp1.resx">
+      <DependentUpon>frmAddRecord_bkp1.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
     <EmbeddedResource Include="frmAddRecords.resx">
       <DependentUpon>frmAddRecords.vb</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +213,12 @@
     <EmbeddedResource Include="frmViewRecords.resx">
       <DependentUpon>frmViewRecords.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="frmViewRecords_bkp.resx">
+      <DependentUpon>frmViewRecords_bkp.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>

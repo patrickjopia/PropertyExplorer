@@ -25,6 +25,7 @@
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+<<<<<<< HEAD
 
 
         If cmbPropertyType.Text = "" Then
@@ -33,12 +34,17 @@
             Dim tempStr As String = cmbPropertyType.Items(cmbPropertyType.SelectedIndex).ToString
             labelProperty.Text = tempStr
         End If
+=======
+        Dim tempStr As String = cmbPropertyType.Items(cmbPropertyType.SelectedIndex).ToString
+        labelProperty.Text = tempStr
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
 
 
     End Sub
 
     Private Sub frmAddRecords_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'PropertyxdbDataSet.propertyxtbl' table. You can move, or remove it, as needed.
+<<<<<<< HEAD
         ''Me.PropertyxtblTableAdapter.Fill(Me.PropertyxdbDataSet.propertyxtbl)
 
 
@@ -53,6 +59,9 @@
         txtLocStreet.Text = ""
         txtVALSQM.Text = ""
 
+=======
+        Me.PropertyxtblTableAdapter.Fill(Me.PropertyxdbDataSet.propertyxtbl)
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
 
     End Sub
 End Class

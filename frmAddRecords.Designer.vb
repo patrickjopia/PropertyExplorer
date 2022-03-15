@@ -69,7 +69,10 @@ Partial Class frmAddRecord
         'txtDate
         '
         Me.txtDate.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PropertyxtblBindingSource, "Date", True))
+<<<<<<< HEAD
         Me.txtDate.DataBindings.Add(New System.Windows.Forms.Binding("Tag", Me.PropertyxtblBindingSource, "Date", True))
+=======
+>>>>>>> f54819e443c85e5ff52398d5c81defd02cc2ea52
         Me.txtDate.Location = New System.Drawing.Point(182, 55)
         Me.txtDate.Name = "txtDate"
         Me.txtDate.Size = New System.Drawing.Size(178, 20)
